@@ -1,0 +1,178 @@
+body {
+  margin: 20mm 0mm 1mm 0mm;
+  background-color: orange;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+#container {
+  background-color: rgb(22, 22, 22);
+  width: fit-content;
+  height: 110mm;
+  border-radius: 10px;
+  border: 10px solid rgb(22, 22, 22);
+}
+#col {
+  display: block;
+}
+
+#col1 {
+  display: block;
+  height: 90px;
+  width: 220px;
+}
+#row:hover {
+  background-color: rgb(241, 236, 236);
+  height: 51px;
+  cursor: pointer;
+}
+#row {
+  background-color: rgb(48, 47, 47);
+  display: inline-flex;
+  color: white;
+  border: 1px solid rgb(22, 22, 22);
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 2mm;
+  flex: 1 1 auto;
+  cursor: pointer;
+}
+#del:hover {
+  background-color: rgb(241, 236, 236);
+  height: 51px;
+  cursor: pointer;
+}
+#del {
+  cursor: pointer;
+  background-color: rgb(48, 47, 47);
+  display: inline-flex;
+  color: white;
+  border: 1px solid rgb(22, 22, 22);
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 2mm;
+  flex: 1 1 auto;
+}
+#clr:hover {
+  background-color: rgb(241, 236, 236);
+  height: 51px;
+  cursor: pointer;
+}
+#clr {
+  cursor: pointer;
+  background-color: rgb(48, 47, 47);
+  display: inline-flex;
+  color: white;
+  border: 1px solid rgb(22, 22, 22);
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 2mm;
+  flex: 1 1 auto;
+}
+#opr:hover {
+  cursor: pointer;
+  background-color: rgb(241, 236, 236);
+  height: 51px;
+}
+#opr {
+  background-color: rgb(48, 47, 47);
+  display: inline-flex;
+  color: white;
+  border: 1px solid rgb(22, 22, 22);
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 2mm;
+  flex: 1 1 auto;
+  cursor: pointer;
+}
+
+#col1 {
+  background-color: rgb(47, 80, 68);
+  display: block;
+  color: white;
+  font-weight: 400;
+  font-size: 4.5mm;
+  align-items: flex-end;
+
+  border: 0mm;
+  margin: 0mm;
+  flex: 1 1 auto;
+}
+
+#rowdisp {
+  background-color: rgb(47, 80, 68);
+  display: inline-flex;
+  color: white;
+  font-weight: 400;
+  font-size: 4.5mm;
+  align-items: flex-end;
+  font-family: cursive;
+  height: 45px;
+  width: 220px;
+  justify-content: flex-end;
+  margin-top: 4mm;
+  border: 0mm;
+  margin: 0mm;
+  flex: 1 1 auto;
+}
+#rowdisp2 {
+  background-color: rgb(47, 80, 68);
+  border: 0mm;
+  margin: 0mm;
+  display: inline-flex;
+  color: white;
+  font-weight: 400;
+  font-size: 7mm;
+  align-items: flex-end;
+  font-family: cursive;
+  height: 45px;
+  width: 220px;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+}
+#rowequl:hover {
+  background-color: gold;
+  height: 51px;
+  cursor: pointer;
+}
+#rowequl {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(48, 47, 47);
+  display: inline-flex;
+  color: white;
+  border: 1px solid rgb(22, 22, 22);
+  border-radius: 50px;
+  height: 50px;
+  width: 109px;
+  box-shadow: 0 0 5px black;
+}
